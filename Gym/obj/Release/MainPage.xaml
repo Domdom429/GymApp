@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Gym.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gym"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <Image HorizontalAlignment="Right" Height="677" VerticalAlignment="Bottom" Width="400" Source="usethis.jpg" RenderTransformOrigin="1.67,0.23" Opacity="0.2" Grid.RowSpan="2" Stretch="Fill" Margin="0,-37,0,0"/>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="TRADITIONAL GYM HELPER TOOL" FontFamily="AR CENA"/>
+            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" FontSize="40" Text="Choose Option" FontFamily="AR CENA"/>
+        </StackPanel>
+
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="44,84,-20,28" Grid.RowSpan="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="background1.j[" Stretch="UniformToFill" />
+            </Grid.Background>
+
+            <Button x:ConnectionId='1' Content="BMI Calculator" Height="129" HorizontalAlignment="Left" Margin="-17,65,0,0" x:Name="btnPanorama" VerticalAlignment="Top" Width="346"                           FontFamily="Castellar" />
+            <Button x:ConnectionId='2' Content="Workout Helper" Height="125" HorizontalAlignment="Left" Margin="-17,236,0,0" x:Name="btnPivot" VerticalAlignment="Top" Width="346"                        FontFamily="Castellar" />
+
+        </Grid>
+    </Grid>
+</Page>
+

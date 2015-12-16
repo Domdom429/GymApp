@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SARLIANTHPC</Machine>
+    <WindowsUser>Adrian Sypos</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5b99fd0b-532f-4804-ae47-5177d1a819a6</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\Gym.exe">
+      <PackagePath>Gym.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Image1.png">
+      <PackagePath>Image1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\back.jpg">
+      <PackagePath>back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\background1.jpg">
+      <PackagePath>background1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bicep.jpg">
+      <PackagePath>bicep.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bicep2.jpg">
+      <PackagePath>bicep2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bicepyes.jpg">
+      <PackagePath>bicepyes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\chest.jpg">
+      <PackagePath>chest.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\legs.jpg">
+      <PackagePath>legs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\shoulder.jpg">
+      <PackagePath>shoulder.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\tricep.jpg">
+      <PackagePath>tricep.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\usethis.jpg">
+      <PackagePath>usethis.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\backpullup.gif">
+      <PackagePath>backpullup.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\barbellcurl.gif">
+      <PackagePath>barbellcurl.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\barbellpreachercurl.gif">
+      <PackagePath>barbellpreachercurl.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\benchpress.gif">
+      <PackagePath>benchpress.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bentoverrow.gif">
+      <PackagePath>bentoverrow.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\cableflies.gif">
+      <PackagePath>cableflies.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\cablerow.gif">
+      <PackagePath>cablerow.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\calvepress.gif">
+      <PackagePath>calvepress.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\closegripbench.gif">
+      <PackagePath>closegripbench.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\dipoffbench.gif">
+      <PackagePath>dipoffbench.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\dips.gif">
+      <PackagePath>dips.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\dumbellcurl.gif">
+      <PackagePath>dumbellcurl.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\dumbellrow.gif">
+      <PackagePath>dumbellrow.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\Flies.gif">
+      <PackagePath>Flies.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\front raises.gif">
+      <PackagePath>front raises.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\inclinepress.gif">
+      <PackagePath>inclinepress.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\latpulldowns.gif">
+      <PackagePath>latpulldowns.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\leg extensions.gif">
+      <PackagePath>leg extensions.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\legpress.gif">
+      <PackagePath>legpress.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\lunges.gif">
+      <PackagePath>lunges.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\shoulderpress.gif">
+      <PackagePath>shoulderpress.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\sidelatteral.gif">
+      <PackagePath>sidelatteral.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\sidelatteralcable.gif">
+      <PackagePath>sidelatteralcable.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\singlecablecurl.gif">
+      <PackagePath>singlecablecurl.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\singlecurloffknee.gif">
+      <PackagePath>singlecurloffknee.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\singletricepextension.gif">
+      <PackagePath>singletricepextension.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\skullcrusher.gif">
+      <PackagePath>skullcrusher.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\smithmachineshoulder press.gif">
+      <PackagePath>smithmachineshoulder press.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\squat.gif">
+      <PackagePath>squat.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\standingskullcrusher.gif">
+      <PackagePath>standingskullcrusher.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\tbarrow.gif">
+      <PackagePath>tbarrow.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\back.xbf">
+      <PackagePath>back.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\biceps.xbf">
+      <PackagePath>biceps.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\bmiCalculator.xbf">
+      <PackagePath>bmiCalculator.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\chest.xbf">
+      <PackagePath>chest.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\legs.xbf">
+      <PackagePath>legs.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\MuscleSelect.xbf">
+      <PackagePath>MuscleSelect.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\shoulders.xbf">
+      <PackagePath>shoulders.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\triceps.xbf">
+      <PackagePath>triceps.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\Gym.xr.xml">
+      <PackagePath>Gym.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Adrian Sypos\Documents\Visual Studio 2013\Projects\Gym\Gym\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

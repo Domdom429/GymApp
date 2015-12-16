@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Gym.legs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gym"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <TextBlock HorizontalAlignment="Left" Margin="198,32,-28,0" TextWrapping="Wrap" Text="squat" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="84" FontSize="30" RenderTransformOrigin="0.406,-0.198"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,154,0,0" TextWrapping="Wrap" Text="leg press" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="117" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="198,271,-28,0" TextWrapping="Wrap" Text="Calve Raise" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="84" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,386,0,0" TextWrapping="Wrap" Text="Lunges" VerticalAlignment="Top" Width="230" Height="84" FontSize="30" FontFamily="Stencil"/>
+
+        <Image HorizontalAlignment="Right" Height="665" VerticalAlignment="Bottom" Width="400" Source="/background1.jpg" RenderTransformOrigin="1.67,0.23" Opacity="0.2" Stretch="Fill" Margin="0,-25,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="198,491,-28,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="117" FontSize="30">
+        	<Run Text="Leg"/>
+        	<LineBreak/>
+        	<Run Text="Extension"/>
+        </TextBlock>
+        <Image HorizontalAlignment="Left" Height="138" VerticalAlignment="Top" Width="142" Margin="36,16,0,0" Source="squat.gif"/>
+        <Image HorizontalAlignment="Left" Height="169" VerticalAlignment="Top" Width="175" Margin="198,121,0,0" Source="legpress.gif"/>
+        <Image HorizontalAlignment="Left" Height="138" VerticalAlignment="Top" Width="142" Margin="36,223,0,0" Source="calvepress.gif"/>
+        <Image HorizontalAlignment="Left" Height="138" VerticalAlignment="Top" Width="142" Margin="225,348,0,0" Source="lunges.gif"/>
+        <Image HorizontalAlignment="Left" Height="159" VerticalAlignment="Top" Width="168" Margin="20,485,0,-4" Source="leg extensions.gif"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="280,582,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <!--Pivot Control-->
+    </Grid>
+</Page>

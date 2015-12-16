@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="Gym.chest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gym"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <TextBlock HorizontalAlignment="Left" Margin="190,38,-20,0" TextWrapping="Wrap" Text="Barbell Bench Press" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="84" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,138,0,0" TextWrapping="Wrap" Text="Incline Dumbbell Press" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="117" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,296,-20,0" TextWrapping="Wrap" Text="Cable flies" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="84" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,409,0,0" TextWrapping="Wrap" Text="Incline flies" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="84" FontSize="30"/>
+
+        <Image HorizontalAlignment="Right" Height="684.964" VerticalAlignment="Bottom" Width="396.769" Source="/background1.jpg" RenderTransformOrigin="1.67,0.23" Opacity="0.2" Stretch="Fill" Margin="0,-31.94,-0.102,-13.024" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-0.066"/>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock x:ConnectionId='1' HorizontalAlignment="Left" Margin="190,536,-20,-13" TextWrapping="Wrap" Text="Dips" VerticalAlignment="Top" FontFamily="Stencil" Width="230" Height="117" FontSize="30"                                              />
+        <Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="127" Margin="29,22,0,0" Source="benchpress.gif"/>
+        <Image HorizontalAlignment="Left" Height="145" VerticalAlignment="Top" Width="145" Margin="217,146,0,0" Source="inclinepress.gif"/>
+        <Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="127" Margin="29,264,0,0" Source="cableflies.gif"/>
+        <Image HorizontalAlignment="Left" Height="136" VerticalAlignment="Top" Width="136" Margin="245,380,0,0" Source="Flies.gif"/>
+        <Image HorizontalAlignment="Left" Height="116" VerticalAlignment="Top" Width="127" Margin="29,495,0,0" Source="dips.gif"/>
+        <Button x:ConnectionId='2' Content="Back" HorizontalAlignment="Left" Margin="272,582,0,0" VerticalAlignment="Top"                     />
+
+    </Grid>
+</Page>
+
